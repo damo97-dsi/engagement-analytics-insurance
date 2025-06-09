@@ -1,8 +1,8 @@
 # 🧠 Engagement Analytics in Health Insurance  
 > Predicting Disengaged Customers to Prevent Churn
 
-[![LinkedIn Badge](https://img.shields.io/badge/View%20on-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/damodar-madhukar)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/damo97-dsi/engagement-analytics-insurance/blob/main/engagement-risk-prediction.ipynb)
+[![LinkedIn Badge](https://img.shields.io/badge/View%20on-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/damo-madhukar)
+
 
 ---
 
