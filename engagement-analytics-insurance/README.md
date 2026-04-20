@@ -2,8 +2,7 @@
 
 ### A Retention Decision System for Predicting Disengagement and Targeting Cost-Effective Interventions
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Damodar%20Naraparaju-blue?logo=linkedin)](https://www.linkedin.com/in/damo-madhukar)
-[![GitHub](https://img.shields.io/badge/GitHub-Project%20Repo-black?logo=github)](https://github.com/damo97-dsi/engagement-analytics-insurance)
+[LinkedIn](https://www.linkedin.com/in/damo-madhukar) | [GitHub](https://github.com/damo97-dsi/engagement-analytics-insurance)
 
 ---
 
@@ -32,7 +31,7 @@ Key analytical outputs from the project:
 
 ## Overview
 
-📌 Focus: Moving from churn prediction → retention decision-making
+📌 **Focus: Moving from churn prediction → retention decision-making**
 
 This project builds a decision-driven analytics system to identify disengaged health insurance customers, segment them by behavioral risk, and guide targeted retention actions.
 
@@ -103,8 +102,7 @@ Simulated dataset reflecting real-world engagement signals:
 
 * Logistic Regression
 * Random Forest
-
-Used to prioritize high-risk customers.
+  Used to prioritize high-risk customers.
 
 ### 3. Behavioral Segmentation
 
@@ -143,7 +141,7 @@ Python · pandas · scikit-learn · matplotlib · Power BI · Jupyter Notebook
 
 ## Project Structure
 
-```text
+```
 engagement-analytics-insurance/
 │
 ├── data/
@@ -163,7 +161,7 @@ This project demonstrates how predictive analytics and segmentation can move bey
 
 It highlights how risk-based prioritization and behavioral insights can improve targeting efficiency, reduce retention costs, and increase customer lifetime value.
 
-Relevant for roles in:
+Relevant for:
 
 * Customer Analytics
 * Business Intelligence
