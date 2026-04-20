@@ -128,3 +128,44 @@ Python · pandas · scikit-learn · matplotlib · Power BI · Jupyter Notebook
 ---
 
 ## Project Structure
+engagement-analytics-insurance/
+│
+├── data/
+├── notebooks/
+├── visuals/
+├── report/
+├── README.md
+├── requirements.txt
+└── LICENSE
+
+
+
+---
+
+## Why This Project Matters
+
+This project demonstrates how predictive analytics and segmentation can support retention decisions, improve prioritization, and increase customer lifetime value.
+
+Relevant for:
+- Customer Analytics  
+- Business Intelligence  
+- Retention Strategy  
+- Decision Science  
+
+---
+
+## How to Run
+
+```bash
+git clone <repo-link>
+cd engagement-analytics-insurance
+pip install -r requirements.txt
+jupyter notebook
+
+
+Author
+
+Damodar Naraparaju
+Master’s in Business Analytics – Saint Peter’s University
+
+
