@@ -9,7 +9,7 @@
 ## 🚀 Executive Snapshot
 
 - 🎯 Identifies high-risk disengaged customers for targeted retention  
-- 📊 ~87% model accuracy with clear risk prioritization  
+- 📊 ~87% model accuracy with risk-based prioritization  
 - 💰 Estimated 15% churn reduction (~$1.2M impact)  
 - 🧠 Behavioral segmentation into 3 actionable personas  
 - ⚡ Highlights effectiveness of low-cost, non-monetary incentives  
@@ -23,138 +23,108 @@
 
 ---
 
-This project builds a decision-driven analytics system to identify disengaged health insurance customers, segment them by behavioral risk, and guide targeted retention actions.# Engagement Analytics in Health Insurance
-### A Retention Decision System for Predicting Disengagement and Targeting Cost-Effective Interventions
+## Overview
 
-This project builds a decision-oriented analytics system to identify disengaged health insurance customers, segment them by behavioral risk, and recommend targeted retention actions.
+This project builds a decision-driven analytics system to identify disengaged health insurance customers, segment them by behavioral risk, and guide targeted retention actions.
 
-Rather than stopping at churn prediction, the project translates model outputs into intervention tiers that help prioritize which customers to target, what type of incentive to use, and where retention spend is likely to generate the highest value.
+Rather than stopping at churn prediction, the system translates model outputs into intervention tiers, helping prioritize which customers to target, what type of incentive to use, and where retention efforts are likely to generate the highest value.
 
 ---
 
 ## Business Problem
 
-Health insurers often lose customers not only because of price or claims issues, but because of declining engagement in wellness and loyalty programs.  
-When disengagement is detected too late, retention efforts become expensive and less effective.
+Health insurers often lose customers due to declining engagement in wellness and loyalty programs.
 
-This project addresses three business questions:
+When disengagement is detected too late:
+- retention costs increase  
+- intervention effectiveness drops  
+- customer lifetime value declines  
 
-- Which customers are at risk of disengaging?
-- What behavioral segments exist within the disengaged population?
-- Which intervention strategy is likely to improve retention at the lowest cost?
+This project addresses:
+
+- Which customers are at risk of disengaging?  
+- What behavioral segments exist?  
+- Which intervention strategies improve retention efficiently?  
 
 ---
 
 ## Objective
 
-The goal of this project is to design a retention decision system that:
+Design a retention decision system that:
 
-- predicts disengagement risk,
-- identifies actionable customer segments,
-- and supports targeted intervention planning for retention teams.
+- predicts disengagement risk  
+- identifies actionable customer segments  
+- supports targeted intervention planning  
 
 ---
 
 ## Decision Framework
 
-Customers are scored based on disengagement risk and grouped into action tiers:
+Customers are grouped into action tiers:
 
-- **High Risk**: Immediate intervention with targeted incentive or personalized engagement
-- **Medium Risk**: Behavioral nudges, reminders, and lower-cost follow-up actions
-- **Low Risk**: Passive monitoring
+- **High Risk** → Immediate intervention  
+- **Medium Risk** → Behavioral nudges  
+- **Low Risk** → Passive monitoring  
 
-This framework helps shift retention from broad, expensive outreach to focused, risk-based decision making.
+This shifts retention from broad outreach to focused prioritization.
 
 ---
 
 ## Dataset
 
-This project uses a simulated health insurance customer engagement dataset designed to reflect real-world behavioral signals such as:
+Simulated dataset reflecting real-world engagement signals:
 
-- inactivity streaks,
-- rewards usage,
-- wellness engagement,
-- digital interaction patterns,
-- and demographic characteristics.
-
-The simulated design allows testing of realistic customer retention logic while preserving privacy.
+- inactivity streaks  
+- reward usage  
+- wellness participation  
+- digital interactions  
+- demographics  
 
 ---
 
 ## Methodology
 
 ### 1. Data Preparation
-- cleaned and validated engagement data
-- engineered behavioral features linked to disengagement risk
-- prepared variables for modeling and segmentation
+- cleaned and validated data  
+- engineered behavioral features  
 
 ### 2. Predictive Modeling
-Built machine learning models to predict disengagement risk, including:
+- Logistic Regression  
+- Random Forest  
 
-- Logistic Regression
-- Random Forest
-
-The final modeling approach achieved strong classification performance and helped prioritize high-risk customers for intervention planning.
+Used to prioritize high-risk customers.
 
 ### 3. Behavioral Segmentation
-Cluster analysis was used to identify meaningful customer personas based on engagement behavior and incentive responsiveness.
+Clustered customers into actionable personas.
 
 ### 4. Retention Strategy Design
-Model outputs and segmentation results were translated into a practical intervention framework aligned to likely business actions.
+Mapped model outputs to intervention tiers aligned with business actions.
 
 ---
 
 ## Key Results
 
-- **Predicted disengagement risk with ~87% model accuracy**
-- **Estimated potential churn reduction of 15% through targeted intervention**
-- **Projected annual retention value of up to $1.2M**
-- **Identified 3 actionable customer personas for retention targeting**
-- **Found that younger customer cohorts responded better to non-monetary and gamified incentives**
+- **~87% accuracy in disengagement prediction**  
+- **High-risk segments concentrated majority of churn exposure**  
+- **Estimated 15% churn reduction (~$1.2M impact)**  
+- **3 actionable customer personas identified**  
+- **Younger cohorts responded better to non-monetary incentives**  
 
 ---
 
 ## Business Insights
 
-Key findings from the analysis include:
-
-- disengaged customers often showed a combination of inactivity streaks and reward fatigue
-- broad incentive strategies are less efficient than targeted outreach to high-risk segments
-- non-monetary interventions can be effective for specific cohorts, improving retention while lowering incentive cost
-- segmentation improves prioritization by distinguishing who needs direct intervention versus lighter engagement nudges
-
----
-
-## Visual Outputs
-
-The project includes the following visual analyses:
-
-- **Cluster Segmentation** (`cluster_segmentation.png`)
-- **Feature Correlation Matrix** (`correlation_matrix.png`)
-- **Random Forest Feature Importance** (`feature_importance_rf.png`)
+- disengagement driven by inactivity + reward fatigue  
+- targeted strategies outperform broad outreach  
+- non-monetary incentives reduce cost without losing impact  
+- segmentation improves prioritization  
 
 ---
 
 ## Tools & Technologies
 
-- **Python**
-- **pandas**
-- **scikit-learn**
-- **matplotlib**
-- **Power BI**
-- **Jupyter Notebook**
+Python · pandas · scikit-learn · matplotlib · Power BI · Jupyter Notebook  
 
 ---
 
 ## Project Structure
-
-```text
-engagement-analytics-insurance/
-│
-├── data/
-├── notebooks/
-├── visuals/
-├── report/
-├── README.md
-├── requirements.txt
-└── LICENSE
