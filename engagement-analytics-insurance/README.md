@@ -1,4 +1,29 @@
-# Engagement Analytics in Health Insurance
+# Engagement Analytics in Health Insurance  
+### A Retention Decision System for Predicting Disengagement and Targeting Cost-Effective Interventions  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Damodar%20Naraparaju-blue?logo=linkedin)](https://www.linkedin.com/in/damo-madhukar)  
+[![GitHub](https://img.shields.io/badge/GitHub-Project%20Repo-black?logo=github)](https://github.com/damo97-dsi/engagement-analytics-insurance)
+
+---
+
+## 🚀 Executive Snapshot
+
+- 🎯 Identifies high-risk disengaged customers for targeted retention  
+- 📊 ~87% model accuracy with clear risk prioritization  
+- 💰 Estimated 15% churn reduction (~$1.2M impact)  
+- 🧠 Behavioral segmentation into 3 actionable personas  
+- ⚡ Highlights effectiveness of low-cost, non-monetary incentives  
+
+---
+
+## 📊 Sample Output
+
+![Cluster Segmentation](visuals/cluster_segmentation.png)  
+![Feature Importance](visuals/feature_importance_rf.png)
+
+---
+
+This project builds a decision-driven analytics system to identify disengaged health insurance customers, segment them by behavioral risk, and guide targeted retention actions.# Engagement Analytics in Health Insurance
 ### A Retention Decision System for Predicting Disengagement and Targeting Cost-Effective Interventions
 
 This project builds a decision-oriented analytics system to identify disengaged health insurance customers, segment them by behavioral risk, and recommend targeted retention actions.
